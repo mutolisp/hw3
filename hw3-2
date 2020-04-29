@@ -8,6 +8,6 @@ list.filenames
 list.data <- list()
 #設立for 迴圈以讀取資料
 for (i in 1:length(list.filenames)){
-   list.data[[i]] <- read.table("list.filenames[i].txt",header = TRUE,sep=" ")
+   list.data[[i]] <- read.table(list.filenames[i], header = TRUE, sep=" ")
 }
                 
